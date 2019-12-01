@@ -1,0 +1,858 @@
+<!DOCTYPE HTML>
+<html lang="zxx">
+	
+<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Tickpick</title>
+		<!-- Favicon Icon -->
+		<link rel="icon" type="image/png" href="site_assets/img/favcion.png" />
+		<!--  CSS -->
+		<link rel="stylesheet" type="text/css" href="site_assets/css/bootstrap.min.css" media="all" />
+		<!-- Slick nav CSS -->
+		<link rel="stylesheet" type="text/css" href="site_assets/css/slicknav.min.css" media="all" />
+		<!-- Iconfont CSS -->
+		<link rel="stylesheet" type="text/css" href="site_assets/css/icofont.css" media="all" />
+		<!-- Owl carousel CSS -->
+		<link rel="stylesheet" type="text/css" href="site_assets/css/owl.carousel.css">
+		<!-- Popup CSS -->
+		<link rel="stylesheet" type="text/css" href="site_assets/css/magnific-popup.css">
+		<!-- Main style CSS -->
+		<link rel="stylesheet" type="text/css" href="site_assets/css/style.css" media="all" />
+		<!-- Responsive CSS -->
+		<link rel="stylesheet" type="text/css" href="site_assets/css/responsive.css" media="all" />
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		
+		
+		
+	<!--     Fonts and icons     -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+	<!-- CSS Files -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/css/material-bootstrap-wizard.css" rel="stylesheet" />
+
+	<!-- CSS Just for demo purpose, don't include it in your project -->
+	<link href="assets/css/demo.css" rel="stylesheet" />
+
+
+<!-- SEATS Files -->
+      <link rel="stylesheet" href="css/style_seats.css">
+	
+
+    <script src="https://kit.fontawesome.com/8a218f3e65.js"></script>
+
+	<!-- Payment form -->
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+			function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<link href="css/style_pm.css" rel="stylesheet" type="text/css" media="all" />
+
+	<!-- sports schedule code -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="css/style_sports.css">
+	<style>
+		
+
+.tp-cinema-schedule ul li {
+    display: inline-block;
+    width: 7rem;
+    color: #282828;
+    background: #fee50e;
+    border: solid 0.125rem #fee50e;
+    font-size: 13px;
+    line-height: 2.3125rem;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+}
+.tp-cinema-schedule ul li a{
+   
+    color: #282828;
+    
+}
+
+.tp-cinema-schedule h5{
+    font-weight: bold;
+    font-size: 17px;
+}
+.tp-cinema-schedule ul li:first-child:before {
+    border: solid 0.125rem #fee50e;
+    color: #282828;
+    content: "\f017";
+    font-size: 16px;
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: 400;
+    height: inherit;
+    width: 2rem;
+    left: -2.25rem;
+    top: -0.125rem;
+    position: absolute;
+    background: #fff;
+}
+
+
+
+
+
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+  font-family: Arial;
+  padding: 0 !important;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: #47515a;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: #47515a;
+  top: 39px;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+	</style>
+
+	</head>
+	<body>
+		<!-- Page loader -->
+	    <div id="preloader"></div>
+		<!-- header section start -->
+		<header class="header">
+			<div class="container">
+				<div class="header-area">
+					<div class="logo">
+						<a href="index-2.html"><img src="assets/img/ticket_logo.png" alt="logo" /></a>
+					</div>
+					<div class="header-right">
+						<form action="#">
+						    
+							<select>
+								<option value="Movies">Movies</option>
+								<option value="Movies">Sports</option>
+								<option value="Movies">Monuments</option>
+							</select>
+							<input type="text"/>
+							<button><i class="fas fa-search"></i></button>
+						</form>
+						<ul>
+							<li><a href="#">Welcome Guest!</a></li>
+							<li><a class="login-popup" href="#">Login</a></li>
+						</ul>
+					</div>
+					<div class="menu-area">
+						<div class="responsive-menu"></div>
+					    <div class="mainmenu">
+                            <ul id="primary-menu">
+                                <li><a class="active" href="index-2.html">Home</a></li>
+                                <li><a href="movies.html">Movies</a></li>
+                                <li><a href="celebrities.html">Sports</a></li>
+                                <li><a href="top-movies.html">Monuments</a></li>
+                                <li><a href="blog.html">News</a></li>
+								<li><a href="#">Pages <i class="icofont icofont-simple-down"></i></a>
+									<ul>
+										<li><a href="blog-details.html">Blog Details</a></li>
+										<li><a href="movie-details.html">Movie Details</a></li>
+									</ul>
+								</li>
+                                <li><a class="theme-btn" href="#"><i class="fas fa-ticket-alt"></i> Tickets</a></li>
+                            </ul>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="login-area">
+			<div class="login-box">
+				<a href="#"><i class="icofont icofont-close"></i></a>
+				<h2>LOGIN</h2>
+				<form action="#">
+					<h6>USERNAME OR EMAIL ADDRESS</h6>
+					<input type="text" />
+					<h6>PASSWORD</h6>
+					<input type="text" />
+					<div class="login-remember">
+						<input type="checkbox" />
+						<span>Remember Me</span>
+					</div>
+					<div class="login-signup">
+						<span>SIGNUP</span>
+					</div>
+					<a href="#" class="theme-btn">LOG IN</a>
+					<span>Or Via Social</span>
+					<div class="login-social">
+						<a href="#"><i class="icofont icofont-social-facebook"></i></a>
+						<a href="#"><i class="icofont icofont-social-twitter"></i></a>
+						<a href="#"><i class="icofont icofont-social-linkedin"></i></a>
+						<a href="#"><i class="icofont icofont-social-google-plus"></i></a>
+						<a href="#"><i class="icofont icofont-camera"></i></a>
+					</div>
+				</form>
+				
+			</div>
+		</div>
+	
+		<!-- hero area start -->
+		<section class="hero-area" id="home">
+			<div class="container">		
+		
+				<!--   Big container   -->
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 col-sm-offset-2">
+							<!--      Wizard container        -->
+							<div class="wizard-container">
+								<div class="card wizard-card" data-color="purple" id="wizard">
+									<form action="" method="">
+
+
+										<div class="wizard-header">
+											<h3 class="wizard-title">
+												Buy Tickets
+											</h3>
+											<h5>This information will let us to book your tickets.</h5>
+										</div>
+										<div class="wizard-navigation">
+											<ul>
+												<li><a href="#location" data-toggle="tab">Select Date</a></li>
+												<li><a href="#facilities" data-toggle="tab">Choose Seats</a></li>
+												<li><a href="#description" data-toggle="tab">Payment</a></li>
+											</ul>
+										</div>
+
+										<div class="tab-content">
+											<div class="tab-pane" id="location">
+                                        <div class="listing">
+                                        <!--   <div class="card-wrapper"> -->
+
+                                        <div class="scard" style="">
+                                        <div class="date-table-wrapper">
+                                        <div class="date-container">
+                                        <div class="date-wrapper">
+                                        <span class="__month">MAR</span>
+                                        <span class="__date">20</span>
+                                        <span class="__day">MON</span>
+                                        <span class="__time">9:00 <small>PM</small></span>
+                                        </div>
+                                        </div>
+                                        </div>
+
+                                        <div class="logos-table-wrapper">
+                                        <div class="logos-container">
+                                        <div class="logos-wrapper">
+                                        <span class="team">A</span>
+                                        <span class="vs">v</span>
+                                        <span class="team">B</span>
+                                        </div>
+                                        </div>
+                                        </div>
+
+                                        <div class="match-number">MATCH 1 - BPLT20</div>
+                                        <div class="match-details"><span>Dhaka Dynamites V Rangpur Riders</span></div>
+                                        <div class="venue-details">Sher e Bangla Cricket Stadium </div>
+                                        <div class="buy-tickets-table-wrapper">
+                                        <div class="buy-tickets-container">
+                                        <div class="buy-tickets-wrapper">
+                                        <span class="__buy-tickets">BUY TICKETS</span>
+                                        <span class="__price-range">Tk. 250 to Tk. 2500</span>
+                                        </div>
+                                        </div>
+                                        </div>
+
+                                        </div>
+
+
+
+
+                                        <!--   </div> -->
+
+                                        </div>
+
+                                        <div class="listing">
+                                        <!--   <div class="card-wrapper"> -->
+
+                                        <div class="scard" style="">
+                                        <div class="date-table-wrapper">
+                                        <div class="date-container">
+                                        <div class="date-wrapper">
+                                        <span class="__month">MAR</span>
+                                        <span class="__date">20</span>
+                                        <span class="__day">MON</span>
+                                        <span class="__time">9:00 <small>PM</small></span>
+                                        </div>
+                                        </div>
+                                        </div>
+
+                                        <div class="logos-table-wrapper">
+                                        <div class="logos-container">
+                                        <div class="logos-wrapper">
+                                        <span class="team">A</span>
+                                        <span class="vs">v</span>
+                                        <span class="team">B</span>
+                                        </div>
+                                        </div>
+                                        </div>
+
+                                       <div class="match-number">MATCH 2 - BPLT20</div>
+                                        <div class="match-details"><span>Comilla Victorians V Khulna Titans</span></div>
+                                        <div class="venue-details">Sher e Bangla Cricket Stadium </div>
+                                        <div class="buy-tickets-table-wrapper">
+                                        <div class="buy-tickets-container">
+                                        <div class="buy-tickets-wrapper">
+                                        <span class="__buy-tickets">BUY TICKETS</span>
+                                        <span class="__price-range">Tk. 250 to Tk. 2500</span>
+                                        </div>
+                                        </div>
+                                        </div>
+
+                                        </div>
+
+
+
+
+                                        <!--   </div> -->
+
+                                        </div>
+
+                                        <div class="listing">
+                                        <!--   <div class="card-wrapper"> -->
+
+                                        <div class="scard" style="">
+                                        <div class="date-table-wrapper">
+                                        <div class="date-container">
+                                        <div class="date-wrapper">
+                                        <span class="__month">MAR</span>
+                                        <span class="__date">20</span>
+                                        <span class="__day">MON</span>
+                                        <span class="__time">9:00 <small>PM</small></span>
+                                        </div>
+                                        </div>
+                                        </div>
+
+                                        <div class="logos-table-wrapper">
+                                        <div class="logos-container">
+                                        <div class="logos-wrapper">
+                                        <span class="team">A</span>
+                                        <span class="vs">v</span>
+                                        <span class="team">B</span>
+                                        </div>
+                                        </div>
+                                        </div>
+
+                                        <div class="match-number">MATCH 3 - BPLT20</div>
+                                        <div class="match-details"><span>Sylhet Sixers V Comilla Victorians</span></div>
+                                        <div class="venue-details">Sher e Bangla Cricket Stadium </div>
+                                        <div class="buy-tickets-table-wrapper">
+                                        <div class="buy-tickets-container">
+                                        <div class="buy-tickets-wrapper">
+                                        <span class="__buy-tickets">BUY TICKETS</span>
+                                        <span class="__price-range">Tk. 250 to Tk. 2500</span>
+                                        </div>
+                                        </div>
+                                        </div>
+
+                                        </div>
+
+
+
+
+                                        <!--   </div> -->
+
+                                        </div>
+
+                                        <div class="listing">
+                                        <!--   <div class="card-wrapper"> -->
+
+                                        <div class="scard" style="">
+                                        <div class="date-table-wrapper">
+                                        <div class="date-container">
+                                        <div class="date-wrapper">
+                                        <span class="__month">MAR</span>
+                                        <span class="__date">20</span>
+                                        <span class="__day">MON</span>
+                                        <span class="__time">9:00 <small>PM</small></span>
+                                        </div>
+                                        </div>
+                                        </div>
+
+                                        <div class="logos-table-wrapper">
+                                        <div class="logos-container">
+                                        <div class="logos-wrapper">
+                                        <span class="team">A</span>
+                                        <span class="vs">v</span>
+                                        <span class="team">B</span>
+                                        </div>
+                                        </div>
+                                        </div>
+
+                                        <div class="match-number">MATCH 4 - BPLT20</div>
+                                        <div class="match-details"><span>Barisal Bulls V Rajshahi Kings</span></div>
+                                        <div class="venue-details">Sher e Bangla Cricket Stadium </div>
+                                        <div class="buy-tickets-table-wrapper">
+                                        <div class="buy-tickets-container">
+                                        <div class="buy-tickets-wrapper">
+                                        <span class="__buy-tickets">BUY TICKETS</span>
+                                        <span class="__price-range">Tk. 250 to Tk. 2500</span>
+                                        </div>
+                                        </div>
+                                        </div>
+
+                                        </div>
+
+
+
+
+                                        <!--   </div> -->
+
+                                        </div>
+											</div>
+											<div class="tab-pane" id="facilities">
+												
+												<div>
+												<center>
+												<br/>
+												
+												<h2>Please Choose Stand</h2>
+												<div class="custom-select" style="width:300px;">
+												<select>
+												  <option value="">Please Choose A Stand</option>
+												  <option value="Shaheed Mushtaque Stand">Shaheed Mushtaque Stand</option>
+												  <option value="Grand Stand">Grand Stand</o.select-itemsption>
+												  <option value="South Stand">South Stand</option>
+												  <option value="North Stand">North Stand</option>
+												  <option value="Shaheed Jewel Stand">Shaheed Jewel Stand</option>
+												  <option value="BCB Hospitality box">BCB Hospitality box</option>
+												  <option value="Eastern Stand">Eastern Stand</option>
+												</select>
+												</div>
+												</center>
+												</div>
+														
+											</div>
+											<div class="tab-pane" id="description">
+												<div class="main">
+		
+		<div class="content">
+			
+			
+						<div class="sap_tabs">
+							<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+								<div class="pay-tabs">
+						
+									  <ul class="resp-tabs-list">
+										  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span><label class="pic1"></label></span></li>
+										  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span><label class="pic3"></label></span></li>
+										  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span><label class="pic4"></label></span></li> 
+										  <li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span><label class="pic2"></label></span></li>
+										  <div class="clear"></div>
+									  </ul>	
+								</div>
+								<div class="resp-tabs-container">
+									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+										<div class="payment-info">
+											
+											
+											<h3 class="pay-title">Visa</h3>
+											<form>
+												<div class="tab-for">				
+													<h5>NAME ON CARD</h5>
+														<input type="text" value="">
+													<h5>CARD NUMBER</h5>													
+														<input class="pay-logo" type="text" value="0000-0000-0000-0000" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '0000-0000-0000-0000';}" required="">
+												</div>	
+												<div class="transaction">
+													<div class="tab-form-left user-form">
+														<h5>EXPIRATION</h5>
+															<ul>
+																<li>
+																	<input type="number" class="text_box" type="text" value="6" min="1" />	
+																</li>
+																<li>
+																	<input type="number" class="text_box" type="text" value="1988" min="1" />	
+																</li>
+																
+															</ul>
+													</div>
+													<div class="tab-form-right user-form-rt">
+														<h5>CVV NUMBER</h5>													
+														<input type="text" value="xxxx" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'xxxx';}" required="">
+													</div>
+													<div class="clear"></div>
+												</div>
+												<input type="submit" value="SUBMIT">
+											</form>
+											<div class="single-bottom">
+													<ul>
+														<li>
+															<input type="checkbox"  id="brand" value="">
+															<label for="brand"><span></span>By checking this box, I agree to the Terms & Conditions & Privacy Policy.</label>
+														</li>
+													</ul>
+											</div>
+										</div>
+									</div>
+									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+										<div class="payment-info">
+											<h3>bKash</h3>
+											<div class="radio-btns">
+												
+												
+												<div class="clear"></div>
+											</div>
+											<a href="#">Continue</a>
+										</div>
+									</div>
+									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+										<div class="payment-info">
+											<h3>PayPal</h3>
+											<h4>Already Have A PayPal Account?</h4>
+											<div class="login-tab">
+												<div class="user-login">
+													<h2>Login</h2>
+													
+													<form>
+														<input type="text" value="name@email.com" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'name@email.com';}" required="">
+														<input type="password" value="PASSWORD" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'PASSWORD';}" required="">
+															<div class="user-grids">
+																<div class="user-left">
+																	<div class="single-bottom">
+																			<ul>
+																				<li>
+																					<input type="checkbox"  id="brand1" value="">
+																					<label for="brand1"><span></span>Remember me?</label>
+																				</li>
+																			</ul>
+																	</div>
+																</div>
+																<div class="user-right">
+																	<input type="submit" value="LOGIN">
+																</div>
+																<div class="clear"></div>
+															</div>
+													</form>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">	
+										<div class="payment-info">
+											
+											<h3 class="pay-title">MasterCard</h3>
+											<form>
+												<div class="tab-for">				
+													<h5>NAME ON CARD</h5>
+														<input type="text" value="">
+													<h5>CARD NUMBER</h5>													
+														<input class="pay-logo" type="text" value="0000-0000-0000-0000" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '0000-0000-0000-0000';}" required="">
+												</div>	
+												<div class="transaction">
+													<div class="tab-form-left user-form">
+														<h5>EXPIRATION</h5>
+															<ul>
+																<li>
+																	<input type="number" class="text_box" type="text" value="6" min="1" />	
+																</li>
+																<li>
+																	<input type="number" class="text_box" type="text" value="1988" min="1" />	
+																</li>
+																
+															</ul>
+													</div>
+													<div class="tab-form-right user-form-rt">
+														<h5>CVV NUMBER</h5>													
+														<input type="text" value="xxxx" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'xxxx';}" required="">
+													</div>
+													<div class="clear"></div>
+												</div>
+												<input type="submit" value="SUBMIT">
+											</form>
+											<div class="single-bottom">
+													<ul>
+														<li>
+															<input type="checkbox"  id="brand" value="">
+															<label for="brand"><span></span>By checking this box, I agree to the Terms & Conditions & Privacy Policy.</label>
+														</li>
+													</ul>
+											</div>
+										</div>	
+									</div>
+								</div>	
+							</div>
+						</div>	
+
+		</div>
+		
+	</div>
+		                            
+											</div>
+										</div>
+										<div class="wizard-footer">
+											<div class="pull-right">
+												<input type='button' class='btn btn-next btn-fill btn-primary btn-wd' name='next' value='Next' />
+												<input type='button' class='btn btn-finish btn-fill btn-primary btn-wd' name='finish' value='Finish' />
+											</div>
+											<div class="pull-left">
+												<input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous' value='Previous' />
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</form>
+								</div>
+							</div> <!-- wizard container -->
+						</div>
+					</div> <!-- row -->
+				</div> <!--  big container -->
+				
+			</div>
+		</section><!-- hero area end -->
+		<!-- footer section start -->
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+                    <div class="col-lg-3 col-sm-6">
+						<div class="widget">
+							<img src="assets/img/ticket_logo.png" alt="about" />
+							<p>Mirpur, Dhaka,Bangladesh</p>
+							<h6><span>Call us: </span>(+880) 111 222 3456</h6>
+						</div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+						<div class="widget">
+							<h4>Legal</h4>
+							<ul>
+								<li><a href="#">Terms of Use</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Security</a></li>
+							</ul>
+						</div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+						<div class="widget">
+							<h4>Account</h4>
+							<ul>
+								<li><a href="#">My Account</a></li>
+								<li><a href="#">Watchlist</a></li>
+								<li><a href="#">Collections</a></li>
+								<li><a href="#">User Guide</a></li>
+							</ul>
+						</div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+						<div class="widget">
+							<h4>Newsletter</h4>
+							<p>Subscribe to our newsletter system now to get latest news from us.</p>
+							<form action="#">
+								<input type="text" placeholder="Enter your email.."/>
+								<button>SUBSCRIBE NOW</button>
+							</form>
+						</div>
+                    </div>
+				</div>
+				<hr />
+			</div>
+			<div class="copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 text-center text-lg-left">
+							<div class="copyright-content">
+								
+							</div>
+						</div>
+						<div class="col-lg-6 text-center text-lg-right">
+							<div class="copyright-content">
+								<a href="#" class="scrollToTop">
+									Back to top<i class="icofont icofont-arrow-up"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer><!-- footer section end -->
+		<!-- jquery main JS -->
+		<script src="site_assets/js/jquery.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="site_assets/js/bootstrap.min.js"></script>
+		<!-- Slick nav JS -->
+		<script src="site_assets/js/jquery.slicknav.min.js"></script>
+		<!-- owl carousel JS -->
+		<script src="site_assets/js/owl.carousel.min.js"></script>
+		<!-- Popup JS -->
+		<script src="site_assets/js/jquery.magnific-popup.min.js"></script>
+		<!-- Isotope JS -->
+		<script src="site_assets/js/isotope.pkgd.min.js"></script>
+		<!-- main JS -->
+		<script src="site_assets/js/main.js"></script>
+		
+		
+		
+			<!--   Core JS Files   -->
+	<script src="assets/js/jquery.bootstrap.js" type="text/javascript"></script>
+
+	<!--  Plugin for the Wizard -->
+	<script src="assets/js/material-bootstrap-wizard.js"></script>
+
+	<!--  More information about jquery.validate here: http://jqueryvalidation.org/	 -->
+	<script src="assets/js/jquery.validate.min.js"></script>
+
+
+
+
+	
+	
+	<!--Payment form -->
+	<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+					<script type="text/javascript">
+						$(document).ready(function () {
+							$('#horizontalTab').easyResponsiveTabs({
+								type: 'default', //Types: default, vertical, accordion           
+								width: 'auto', //auto or any width like 600px
+								fit: true   // 100% fit in a container
+							});
+						});
+						
+						
+						
+						
+						
+						var x, i, j, selElmnt, a, b, c;
+/*look for any elements with the class "custom-select":*/
+x = document.getElementsByClassName("custom-select");
+for (i = 0; i < x.length; i++) {
+  selElmnt = x[i].getElementsByTagName("select")[0];
+  /*for each element, create a new DIV that will act as the selected item:*/
+  a = document.createElement("DIV");
+  a.setAttribute("class", "select-selected");
+  a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+  x[i].appendChild(a);
+  /*for each element, create a new DIV that will contain the option list:*/
+  b = document.createElement("DIV");
+  b.setAttribute("class", "select-items select-hide");
+  for (j = 1; j < selElmnt.length; j++) {
+    /*for each option in the original select element,
+    create a new DIV that will act as an option item:*/
+    c = document.createElement("DIV");
+    c.innerHTML = selElmnt.options[j].innerHTML;
+    c.addEventListener("click", function(e) {
+        /*when an item is clicked, update the original select box,
+        and the selected item:*/
+        var y, i, k, s, h;
+        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+        h = this.parentNode.previousSibling;
+        for (i = 0; i < s.length; i++) {
+          if (s.options[i].innerHTML == this.innerHTML) {
+            s.selectedIndex = i;
+            h.innerHTML = this.innerHTML;
+            y = this.parentNode.getElementsByClassName("same-as-selected");
+            for (k = 0; k < y.length; k++) {
+              y[k].removeAttribute("class");
+            }
+            this.setAttribute("class", "same-as-selected");
+            break;
+          }
+        }
+        h.click();
+    });
+    b.appendChild(c);
+  }
+  x[i].appendChild(b);
+  a.addEventListener("click", function(e) {
+      /*when the select box is clicked, close any other select boxes,
+      and open/close the current select box:*/
+      e.stopPropagation();
+      closeAllSelect(this);
+      this.nextSibling.classList.toggle("select-hide");
+      this.classList.toggle("select-arrow-active");
+    });
+}
+function closeAllSelect(elmnt) {
+  /*a function that will close all select boxes in the document,
+  except the current select box:*/
+  var x, y, i, arrNo = [];
+  x = document.getElementsByClassName("select-items");
+  y = document.getElementsByClassName("select-selected");
+  for (i = 0; i < y.length; i++) {
+    if (elmnt == y[i]) {
+      arrNo.push(i)
+    } else {
+      y[i].classList.remove("select-arrow-active");
+    }
+  }
+  for (i = 0; i < x.length; i++) {
+    if (arrNo.indexOf(i)) {
+      x[i].classList.add("select-hide");
+    }
+  }
+}
+/*if the user clicks anywhere outside the select box,
+then close all select boxes:*/
+document.addEventListener("click", closeAllSelect);
+						
+					</script>
+	
+	
+	
+	<!--  SEATS js/	 -->
+    <script  src="js/script_seats.js"></script>
+
+    <!--  Sports js/	 -->
+
+
+  
+
+    <script  src="js/script_sports.js"></script>
+	</body>
+
+</html>

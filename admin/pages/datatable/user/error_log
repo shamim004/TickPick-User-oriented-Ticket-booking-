@@ -1,0 +1,16 @@
+[20-Aug-2019 13:10:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/user/db.php:5
+Stack trace:
+#0 /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/user/db.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/user/fetch.php(2): include('/home/dizitech/...')
+#2 {main}
+  thrown in /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/user/db.php on line 5
+[25-Aug-2019 19:46:59 UTC] PHP Notice:  Undefined index: pass in /home/dizitech/tickpick.xyz/admin/pages/datatable/user/fetch.php on line 46
+[25-Aug-2019 19:46:59 UTC] PHP Notice:  Undefined index: pass in /home/dizitech/tickpick.xyz/admin/pages/datatable/user/fetch.php on line 46
+[25-Aug-2019 19:46:59 UTC] PHP Notice:  Undefined index: pass in /home/dizitech/tickpick.xyz/admin/pages/datatable/user/fetch.php on line 46
+[25-Aug-2019 19:46:59 UTC] PHP Notice:  Undefined index: pass in /home/dizitech/tickpick.xyz/admin/pages/datatable/user/fetch.php on line 46
+[25-Aug-2019 19:46:59 UTC] PHP Notice:  Undefined index: pass in /home/dizitech/tickpick.xyz/admin/pages/datatable/user/fetch.php on line 46
+[25-Aug-2019 19:46:59 UTC] PHP Notice:  Undefined index: pass in /home/dizitech/tickpick.xyz/admin/pages/datatable/user/fetch.php on line 46
+[25-Aug-2019 19:46:59 UTC] PHP Notice:  Undefined index: pass in /home/dizitech/tickpick.xyz/admin/pages/datatable/user/fetch.php on line 46
+[25-Aug-2019 19:46:59 UTC] PHP Notice:  Undefined index: pass in /home/dizitech/tickpick.xyz/admin/pages/datatable/user/fetch.php on line 46
+[25-Aug-2019 19:46:59 UTC] PHP Notice:  Undefined index: pass in /home/dizitech/tickpick.xyz/admin/pages/datatable/user/fetch.php on line 46
+[25-Aug-2019 19:46:59 UTC] PHP Notice:  Undefined index: pass in /home/dizitech/tickpick.xyz/admin/pages/datatable/user/fetch.php on line 46

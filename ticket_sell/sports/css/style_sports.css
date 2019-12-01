@@ -1,0 +1,216 @@
+
+.listing {
+  padding: -1px 400px;
+  background: #f2f2f2;
+}
+.scard {
+  margin-top: 30px;
+  background: #fff;
+  position: relative;
+  padding-left: 300px;
+  padding-right: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-shadow: 0px 1px 2px #ccc;
+  overflow: hidden;
+}
+.scard .clearfix {
+  zoom: 1;
+}
+.scard .clearfix:before,
+.scard .clearfix:after {
+  content: "";
+  display: table;
+}
+.scard .clearfix:after {
+  clear: both;
+}
+.scard .date-table-wrapper {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.scard .date-container {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 90px;
+  background: #f7f7f7;
+  border-right: 2px dotted #ddd;
+  text-align: center;
+  display: table;
+  padding: 20px 20px;
+}
+.scard .date-container .date-wrapper {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+.scard .date-container .__month,
+.scard .date-container .__day,
+.scard .date-container .__date {
+  display: block;
+  vertical-align: middle;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #333;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  padding: 1px 0;
+  width: 100%;
+}
+.scard .date-container .__date {
+  font-size: 30px;
+  line-height: 30px;
+}
+.scard .date-container .__time {
+  display: block;
+  font-size: 12px;
+  border-top: 1px solid #666;
+  margin-top: 3px;
+  padding-top: 3px;
+  font-weight: bold;
+}
+.scard .date-container .__time small {
+  font-weight: normal;
+}
+.scard .buy-tickets-table-wrapper {
+  position: absolute;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+.scard .buy-tickets-container {
+  display: table;
+  height: 100%;
+  padding-right: 50px;
+}
+.scard .buy-tickets-container .buy-tickets-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+}
+.scard .buy-tickets-container .__buy-tickets {
+  display: block;
+  background: #D3323D;
+  border-radius: 4px;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  width: 130px;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  line-height: 12px;
+  padding-top: 9px;
+  color: #fff;
+}
+.scard .buy-tickets-container .__price-range {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+  margin-top: 5px;
+  display: block;
+}
+.scard .logos-table-wrapper {
+  position: absolute;
+  left: 105px;
+  top: 0;
+  height: 100%;
+}
+.scard .logos-container {
+  height: 100%;
+  display: table;
+}
+.scard .logos-container .logos-wrapper {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+.scard .logos-container .logos-wrapper .team {
+    width: 43px;
+    height: 43px;
+    background: #eee;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 47px;
+}
+.scard .logos-container .logos-wrapper .vs {
+  display: inline-block;
+  padding: 0 10px;
+}
+.match-number {
+  padding: 5px 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 13px;
+}
+.match-details {
+  margin-top: 5px;
+}
+.match-details span {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 0;
+  border-top: 1px solid #ccc;
+}
+.venue-details {
+  font-size: 12px;
+  line-height: 12px;
+  color: #666;
+}
+.scard._touch {
+  width: 360px;
+  padding-left: 105px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+}
+.scard._touch .logos-table-wrapper {
+  position: static;
+  display: block;
+  width: 100%;
+}
+.scard._touch .logos-table-wrapper .logos-container {
+  display: block;
+  text-align: center;
+}
+.scard._touch .logos-table-wrapper .logos-container .logos-wrapper {
+  display: block;
+  height: auto;
+  vertical-align: initial;
+}
+.scard._touch .logos-table-wrapper .logos-container .logos-wrapper .team {
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+}
+.scard._touch .match-number,
+.scard._touch .match-details,
+.scard._touch .venue-details {
+  text-align: center;
+}
+.scard._touch .match-number {
+  margin-top: 10px;
+}
+.scard._touch .buy-tickets-table-wrapper {
+  position: static;
+  display: block;
+  margin-top: 15px;
+}
+.scard._touch .buy-tickets-table-wrapper .buy-tickets-container {
+  display: block;
+  padding-right: 0;
+}
+.scard._touch .buy-tickets-table-wrapper .buy-tickets-container .buy-tickets-wrapper {
+  display: block;
+}
+.scard._touch .buy-tickets-table-wrapper .buy-tickets-container .buy-tickets-wrapper .__buy-tickets {
+  width: 100%;
+}

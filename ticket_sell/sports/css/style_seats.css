@@ -1,0 +1,73 @@
+.seatSelection {
+  text-align: center;
+  padding: 5px;
+  margin: 15px;
+  width: calc(100% - 30px);
+}
+.seatsReceipt {
+  text-align: center;
+}
+.seatNumber {
+    display: inline-block;
+    background-color: #fee50e;
+    color: #333;
+    border-radius: 2px;
+    cursor: default;
+    height: 25px;
+    width: 22px;
+    line-height: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+}
+.seatRow {
+  padding: 4px 10px;
+}
+.seatSelected {
+     background-color: #fd1b04;
+    color: #f5f5f5;
+}
+.seatUnavailable {
+  background-color: gray;
+      color: #fff;
+}
+.seatRowNumber {
+  clear: none;
+  display: inline;
+}
+.hidden {
+  display: none;
+}
+.seatsAmount {
+  max-width: 2em;
+}
+.E-Front {
+    background: #454763;
+    width: 100%;
+    float: left;
+}
+.E-Rear {
+    background: #454763;
+    width: 100%;
+    float: left;
+}
+
+
+.selectSeatNprice {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+.seatsReceipt {
+    text-align: center;
+    width: 100% !important;
+    position: unset;
+    float: left;
+    display: contents;
+}
+
+
+
+
+
+

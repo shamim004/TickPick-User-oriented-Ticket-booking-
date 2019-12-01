@@ -1,0 +1,32 @@
+[18-Aug-2019 19:35:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/db.php:5
+Stack trace:
+#0 /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/db.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/fetch.php(2): include('/home/dizitech/...')
+#2 {main}
+  thrown in /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/db.php on line 5
+[18-Aug-2019 19:37:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'dizitechbd_tickpic'@'localhost' (using password: YES) in /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/db.php:5
+Stack trace:
+#0 /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/db.php(5): PDO->__construct('mysql:host=loca...', 'dizitechbd_tick...', 'my]jgme;SjX?')
+#1 /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/fetch.php(2): include('/home/dizitech/...')
+#2 {main}
+  thrown in /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/db.php on line 5
+[18-Aug-2019 19:38:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/db.php:5
+Stack trace:
+#0 /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/db.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/fetch.php(2): include('/home/dizitech/...')
+#2 {main}
+  thrown in /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/db.php on line 5
+[18-Aug-2019 19:38:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'dizitechbd_tickpic'@'localhost' (using password: YES) in /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/db.php:5
+Stack trace:
+#0 /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/db.php(5): PDO->__construct('mysql:host=loca...', 'dizitechbd_tick...', 'my]jgme;SjX?')
+#1 /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/fetch.php(2): include('/home/dizitech/...')
+#2 {main}
+  thrown in /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/db.php on line 5
+[18-Aug-2019 22:10:12 UTC] PHP Warning:  unlink(upload/http://1.bp.blogspot.com/-l5Avfqwyk_s/VbMfVVFwvlI/AAAAAAAAAlY/GYmkkQ8mLXk/s1600/picture6.blogspot.com%2B%2B2%2Bcopy.jpg): No such file or directory in /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/delete.php on line 11
+[19-Aug-2019 18:46:11 UTC] PHP Warning:  unlink(upload/fgfdgdf): No such file or directory in /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/delete.php on line 11
+[19-Aug-2019 18:46:15 UTC] PHP Warning:  unlink(upload/fgfdgdf): No such file or directory in /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/delete.php on line 11
+[19-Aug-2019 19:04:42 UTC] PHP Warning:  unlink(upload/ghghgh): No such file or directory in /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/delete.php on line 11
+[19-Aug-2019 19:53:56 UTC] PHP Warning:  unlink(upload/vxcvxc): No such file or directory in /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/delete.php on line 11
+[19-Aug-2019 19:54:29 UTC] PHP Warning:  unlink(upload/wewewr): No such file or directory in /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/delete.php on line 11
+[19-Aug-2019 19:54:33 UTC] PHP Warning:  unlink(upload/sfcdsf): No such file or directory in /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/delete.php on line 11
+[19-Aug-2019 19:54:37 UTC] PHP Warning:  unlink(upload/sdfdsf): No such file or directory in /home/dizitech/public_html/tickpick/buy/admin/pages/datatable/Movies/delete.php on line 11
